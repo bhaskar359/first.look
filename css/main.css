@@ -1,0 +1,120 @@
+.profile_pic {
+	border-radius: 50%;
+	align-self: center;
+}
+
+.site_header {
+	color: rgb(255, 255, 225);
+	font-size: 20px;
+	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.label_text{
+	margin-left: 5px;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.bgm {
+	background-image: url("https://images.hdqwalls.com/download/the-secret-life-of-pets-2-wa-1280x2120.jpg");
+	max-width: 100;
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+body{
+	height: 100%;
+	margin: 0px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 100;
+	height: auto;
+	padding: 16px;
+
+}
+
+input[type=email],input[type=password] {
+	width: 100%;
+	padding: 10px;
+	margin: 3px 0 10px 0;
+	border: none;
+}
+
+.btn {
+	display: inline-block;
+	background-color: rgb(255,117,112);
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	width: 150px;
+	cursor: pointer;
+	transition: all 0.5s;
+
+}
+
+.btn span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.btn span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.btn:hover {
+	background-color: #FFFFFF;
+	color: Blue;
+}
+
+.btn:hover span {
+	padding-right: 25px;
+}
+
+.btn:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+footer {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+
+.fa {
+  color: white;	
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
